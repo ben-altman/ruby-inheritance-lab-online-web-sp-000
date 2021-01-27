@@ -16,6 +16,8 @@ avi.last_name = "Flombaum"
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
+steve.learn(more_knowledge)
+steve.learn(new_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
@@ -24,9 +26,5 @@ jim.first_name = "Jim"
 jim.last_name = "Henson"
 
 #jim.learn
-
-steve.learn(more_knowledge)
-
-steve.learn(new_knowledge)
 
 puts steve.knowledge
